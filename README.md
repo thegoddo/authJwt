@@ -57,7 +57,6 @@ WERKZEUG_COLOR=0
 1. Run the Server
 
 Start the Flask application. The database (app.db) and log file (app.log) will be generated automatically on the first run.
-Bash
 
 ```bash
 python app.py
