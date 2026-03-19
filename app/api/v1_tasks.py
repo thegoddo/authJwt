@@ -63,3 +63,25 @@ def delete_by_id(id):
     db.session.delete(task)
     db.session.commit()
     return jsonify({"msg": f"Task {id} successfully deleted"}), 200
+
+
+@tasks_bp.route("/<int:id>", methods=['PUT'])
+@jwt_required()
+def update_by_id(id):
+    current_user = get_jwt_identity()
+    task = Task.query.filter_by(id=id).first()
+
+    if not task:
+        return jsonify({"msg": "Task not found"}), 404
+
+    # RBAC
+    if current_user['role'] == 'admin' and task.user_id != current_user['id']:
+        return jsonify({"msg": "Unauthorized access to this task"}), 403
+
+    data = request.get_json()
+    task.title = data.get("title", task.title)
+    task.content = data.get("content", task.content)
+
+    db.session.commit()
+
+    return jsonify({"msg": "Task updated", "id": task.id, "title": task.title, "content": task.content}), 200
