@@ -1,0 +1,50 @@
+2026-03-19 14:27:46,335 INFO: Primetrade API starting up...
+2026-03-19 14:28:09,800 INFO: Primetrade API starting up...
+2026-03-19 14:28:10,016 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-19 14:28:10,016 INFO: [33mPress CTRL+C to quit[0m
+2026-03-19 14:28:10,055 INFO:  * Restarting with watchdog (inotify)
+2026-03-19 14:28:10,494 INFO: Primetrade API starting up...
+2026-03-19 14:28:10,520 WARNING:  * Debugger is active!
+2026-03-19 14:28:10,661 INFO:  * Debugger PIN: 295-975-814
+2026-03-19 14:30:09,009 INFO: 127.0.0.1 - - [19/Mar/2026 14:30:09] "[31m[1mPOST /api/v1/auth/login HTTP/1.1[0m" 415 -
+2026-03-19 14:32:10,118 INFO: 127.0.0.1 - - [19/Mar/2026 14:32:10] "[35m[1mPOST /api/v1/auth/register HTTP/1.1[0m" 201 -
+2026-03-19 14:32:47,001 INFO: 127.0.0.1 - - [19/Mar/2026 14:32:47] "POST /api/v1/auth/login HTTP/1.1" 200 -
+2026-03-19 14:33:57,433 INFO: 127.0.0.1 - - [19/Mar/2026 14:33:57] "[31m[1mPOST /api/v1/tasks/ HTTP/1.1[0m" 422 -
+2026-03-19 14:37:32,125 INFO:  * Detected change in '/home/bshaw/Documents/Coding/Assignments_Internship/authJwt/app/api/v1_tasks.py', reloading
+2026-03-19 14:37:32,577 INFO:  * Restarting with watchdog (inotify)
+2026-03-19 14:37:33,281 INFO: Primetrade API starting up...
+2026-03-19 14:37:33,324 WARNING:  * Debugger is active!
+2026-03-19 14:37:33,334 INFO:  * Debugger PIN: 295-975-814
+2026-03-19 14:37:53,888 INFO:  * Detected change in '/home/bshaw/Documents/Coding/Assignments_Internship/authJwt/app/api/v1_tasks.py', reloading
+2026-03-19 14:37:54,252 INFO:  * Restarting with watchdog (inotify)
+2026-03-19 14:37:54,875 INFO: Primetrade API starting up...
+2026-03-19 14:37:54,906 WARNING:  * Debugger is active!
+2026-03-19 14:37:54,909 INFO:  * Debugger PIN: 295-975-814
+2026-03-19 14:38:25,804 INFO: 127.0.0.1 - - [19/Mar/2026 14:38:25] "[31m[1mPOST /api/v1/tasks/ HTTP/1.1[0m" 422 -
+2026-03-19 14:38:38,421 INFO: 127.0.0.1 - - [19/Mar/2026 14:38:38] "[31m[1mPOST /api/v1/tasks/ HTTP/1.1[0m" 422 -
+2026-03-19 14:38:43,123 INFO: 127.0.0.1 - - [19/Mar/2026 14:38:43] "[31m[1mPOST /api/v1/tasks/ HTTP/1.1[0m" 422 -
+2026-03-19 14:39:12,366 INFO: 127.0.0.1 - - [19/Mar/2026 14:39:12] "[31m[1mPOST /api/v1/tasks/ HTTP/1.1[0m" 401 -
+2026-03-19 14:39:58,355 INFO: 127.0.0.1 - - [19/Mar/2026 14:39:58] "[31m[1mPOST /api/v1/tasks/ HTTP/1.1[0m" 422 -
+2026-03-19 14:44:01,305 INFO:  * Detected change in '/home/bshaw/Documents/Coding/Assignments_Internship/authJwt/config.py', reloading
+2026-03-19 14:44:01,579 INFO:  * Restarting with watchdog (inotify)
+2026-03-19 14:44:02,564 INFO: Primetrade API starting up...
+2026-03-19 14:44:02,593 WARNING:  * Debugger is active!
+2026-03-19 14:44:02,601 INFO:  * Debugger PIN: 295-975-814
+2026-03-19 14:44:03,105 INFO:  * Detected change in '/home/bshaw/Documents/Coding/Assignments_Internship/authJwt/config.py', reloading
+2026-03-19 14:44:03,322 INFO:  * Restarting with watchdog (inotify)
+2026-03-19 14:45:27,792 INFO: Primetrade API starting up...
+2026-03-19 14:45:27,831 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-19 14:45:27,832 INFO: [33mPress CTRL+C to quit[0m
+2026-03-19 14:45:27,838 INFO:  * Restarting with watchdog (inotify)
+2026-03-19 14:45:28,389 INFO: Primetrade API starting up...
+2026-03-19 14:45:28,415 WARNING:  * Debugger is active!
+2026-03-19 14:45:28,417 INFO:  * Debugger PIN: 295-975-814
+2026-03-19 14:45:38,811 INFO: 127.0.0.1 - - [19/Mar/2026 14:45:38] "[35m[1mPOST /api/v1/tasks/ HTTP/1.1[0m" 201 -
+2026-03-19 14:45:47,033 INFO: 127.0.0.1 - - [19/Mar/2026 14:45:47] "[31m[1mGET /api/v1/tasks/ HTTP/1.1[0m" 401 -
+2026-03-19 14:45:59,708 INFO: 127.0.0.1 - - [19/Mar/2026 14:45:59] "GET /api/v1/tasks/ HTTP/1.1" 200 -
+2026-03-19 14:46:14,123 INFO: 127.0.0.1 - - [19/Mar/2026 14:46:14] "[31m[1mPUT /api/v1/tasks/1 HTTP/1.1[0m" 415 -
+2026-03-19 14:46:24,414 INFO: 127.0.0.1 - - [19/Mar/2026 14:46:24] "DELETE /api/v1/tasks/1 HTTP/1.1" 200 -
+2026-03-19 14:52:24,208 INFO: 127.0.0.1 - - [19/Mar/2026 14:52:24] "[31m[1mPOST /api/v1/auth/register HTTP/1.1[0m" 400 -
+2026-03-19 14:53:13,313 INFO: 127.0.0.1 - - [19/Mar/2026 14:53:13] "POST /api/v1/auth/login HTTP/1.1" 200 -
