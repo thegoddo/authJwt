@@ -43,7 +43,7 @@ def get_tasks_by_id(id):
         return jsonify({"msg": "Task not found"}), 404
 
     if current_user['role'] != 'admin' and task.user_id != current_user['id']:
-        return jsonify({"msg": "Unauthorized accesst to this task"}), 403
+        return jsonify({"msg": "Unauthorized access to this task"}), 403
 
     return jsonify({"id": task.id, "title": task.title, "content": task.content}), 200
 
@@ -58,7 +58,7 @@ def delete_by_id(id):
         return jsonify({"msg": "Task not found"}), 404
 
     if current_user['role'] != 'admin' and task.user_id != current_user['id']:
-        return jsonify({"msg": "Unauthorized accesst to this task"}), 403
+        return jsonify({"msg": "Unauthorized access to this task"}), 403
 
     db.session.delete(task)
     db.session.commit()
